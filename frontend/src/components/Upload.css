@@ -1,0 +1,62 @@
+.upload {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .upload h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .upload-contain {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #de9595;
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .upload-contain input[type="file"] {
+    display: none;
+  }
+  
+  .upload-contain label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .upload-contain .img {
+    margin-right: 10px;
+  }
+  
+  .upload-contain p.upload.image {
+    margin: 0;
+    font-size: 1rem;
+    color: #706d6d;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 768px) {
+    .upload h1 {
+      font-size: 1.5rem;
+    }
+  
+    .upload-contain {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .upload-contain .img {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .upload-contain p.upload.image {
+      font-size: 0.9rem;
+    }
+  }
+  

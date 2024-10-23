@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+  }
+  
+  .nav-logo {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .img-image {
+    width: 20px;
+    margin-left: 10px;
+  }
+  
+  button img {
+    height: 15px;
+  }
+  
+  /* Media query for screens smaller than 768px */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      justify-content: center;
+    }
+  
+    .nav-logo {
+      margin-bottom: 10px;
+      height: 40px; /* Adjust logo size for smaller screens */
+    }
+  
+    button {
+      width: 100%;
+      justify-content: center;
+      padding: 8px 15px;
+      font-size: 14px; /* Reduce button text size */
+    }
+  
+    .img-image {
+      width: 15px; /* Adjust icon size */
+    }
+  
+    button img {
+      height: 12px;
+    }
+  }
+  
